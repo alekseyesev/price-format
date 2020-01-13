@@ -31,9 +31,9 @@ var number_1 = 10000000000;
 var number_2 = 10000000000000.45;
 var number_3 = '1234567890';
 
-priceFormat(number_1) # returns '10 000 000 000'
-priceFormat(number_2, ' ', 2) # returns '10 000 000 000 000.45'
-priceFormat(number_3, ',', 2) # returns '1,234,567,890.00'
+priceFormat(number_1); // returns '10 000 000 000'
+priceFormat(number_2, ' ', 2); // returns '10 000 000 000 000.45'
+priceFormat(number_3, ',', 2); // returns '1,234,567,890.00'
 ```
 ## License
 GNU GENERAL PUBLIC LICENSE
